@@ -755,3 +755,38 @@ img {
   .fa-instagram:before {
     color: #fff;
   }
+
+  .top-container {
+    background-color: #93dfdf);
+    position: relative;
+    padding-top: 100px;
+
+  }
+
+ .aboutvolley {
+   padding-top: 2%;
+   text-align:justify;
+   font-family:'Times New Roman', Times, serif;
+ }
+
+ .president {
+  padding-top: 1%;
+  font-family:'Times New Roman', Times, serif;
+ }
+ .aboutvol{
+   text-align: center;
+ }
+
+ .top-logo {
+  height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    float: left;
+    margin: 10px;
+}
+ .logogeo {
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+ }
