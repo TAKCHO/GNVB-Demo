@@ -1,0 +1,24 @@
+{
+  "name": "vfgdemo-main",
+  "version": "1.0.0",
+  "description": "\u0000\"# GNVB-Demo\" \r \"# GNVB-Demo\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TAKCHO/GNVB-Demo.git"
+  },
+  "author": "tako",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TAKCHO/GNVB-Demo/issues"
+  },
+  "homepage": "https://github.com/TAKCHO/GNVB-Demo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.3"
+  }
+}
