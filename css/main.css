@@ -890,3 +890,21 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+/* Contact Section */
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.card {
+  width: 100%;
+  padding: 5%;
+}
+
+#Tbilisi {
+  padding: 100px;
+  text-align: center;
+}
