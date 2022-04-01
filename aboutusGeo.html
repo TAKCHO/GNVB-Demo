@@ -8,9 +8,11 @@
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>ჩვენს შესახებ</title>
     <link rel="stylesheet" href="/css/nicepage.css" media="screen">
+    <link rel="stylesheet" href="/css/main.css">
 <link rel="stylesheet" href="/css/Home-2.css" media="screen">
     <script class="u-script" type="text/javascript" src="/js/jquery-1.9.1.min.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="/js/nicepage.js" defer=""></script>
+    <script src="/js/typewriter.js"></script>
     <meta name="generator" content="Nicepage 4.7.8, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|PT+Sans:400,400i,700,700i">
@@ -25,12 +27,135 @@
 		"logo": "images/default-logo.png"
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Home 2">
+    
     <meta property="og:type" content="website">
   </head>
-  <body class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-b10b"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+  <body class="u-body u-xl-mode">
+    <!-- Header -->
+<header id="header-contact">
+  <div id="nav-wrap">
+  <div id="navbar" class="navbar top">
+     <img src="" alt="" id="" />
+    <ul>
+      <li><div class="dropdown">
+          <button >
+            <a href="./index.html"> მთავარი </a> 
+          </button>
+        </div></li>
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn current">
+            ფედერაცია
+          </button>
+          <div id="drop-1" class="dropdown-content">
+              <div>
+                  <a class="drop-title" > ფედერაცია </a>
+                  <a href="./aboutusGeo.html">ჩვენს შესახებ</a>
+                  <a href="#about">დოკუმენტაცია</a>
+                  <a href="/contact.html"></a>
+              </div>
+              <div> 
+                  <a class="drop-title">სახეობები</a>
+                  <a href="./index2.html">კლასიკური</a>
+                  <a href="./index2.html">ქვიშის</a>
+                  <a href="./index2.html">თოვლი</a>
+                  <a href="./index2.html">ტექვოლი</a>
+                  <a href="./index2.html">პარა</a>
+              </div>
+              <div> 
+                  <a class="drop-title">რეგიონები</a>
+                  <a href="./index2.html">აჭარა</a>
+                  <a href="./index2.html">გურია</a>
+                  <a href="./index2.html">თბილისი</a>
+                  <a href="./index2.html">იმერეთი</a>
+                  <a href="./index2.html">კახეთი</a>
+                  <a href="./index2.html">მცხეთა-თიანეთი</a>
+                  <a href="./index2.html">რაჭა-ლეჩხუმი</a>
+                  <a href="./index2.html">ქვემო ქართლი</a>
+              </div>
+              <div> 
+                  <a class="drop-title">დოკუმენტაცია</a>
+                  <a href="./index2.html">წესები</a>
+                  <a href="./index2.html">მასალები</a>
+              </div>
+
+          </div>
+          
+        </div>
+      </li>
+      <li>
+          <button>
+              სიახლეები
+          </button>
+      </li>
+      <li>
+          <div class="dropdown">
+          <button onclick="myFunction2()" class="dropbtn">
+            ეროვნული გუნდები
+          </button>
+          <div id="drop" class="dropdown-content">
+              <div>
+                  <a class="drop-title">მამაკაცები</a>
+                  <a>ეროვნული</a>
+                  <a href="">ახალგაზრდული</a>
+              </div>  
+              <div>
+                  <a href="#about" class="drop-title">ქალები</a>
+                  <a href="">ეროვნული</a>
+                  <a href="">ახალგაზრდული</a>
+              </div>  
+          </div>
+      </li>
+      <li>
+          <div class="dropdown">
+          <button onclick="myFunction3()" class="dropbtn">
+            კლუბები
+          </button>
+          <div id="drop" class="dropdown-content">
+              <div>
+                  <a class="drop-title" href="#home">მამკაცთა ლიგა</a>
+                  <a href="#home">უმაღლესი ლიგა</a>
+                  <a href="#about">პირველი ლიგა</a>
+                  <a href="#contact">საუნივერსიტეტო ლიგა</a>
+                  <a href="#contact">სასკოლო ლიგა</a>
+              </div>
+              <div>
+                  <a class="drop-title" href="#home">ქალთა ლიგა</a>
+                  <a href="#home">უმაღლესი ლიგა</a>
+                  <a href="#about">პირველი ლიგა</a>
+                  <a href="#contact">საუნივერსიტეტო ლიგა</a>
+                  <a href="#contact">სასკოლო ლიგა</a>
+              </div>
+              <div>
+                  <a class="drop-title" href="#home">სხვა</a>
+                  <a href="#home">სამოყვარულო ლიგა</a>
+              </div>
+             
+          </div>
+      </li>
+      <li>
+          <button href="">კალენდარი</button>
+      </li>
+      <li>
+          <button a href="contact.html">კონტაქტი</button>
+      </li>
+      <li>
+          
+              <!-- <link rel="stylesheet" href="Geo/">gdfregefdg</limk> -->
+              <a rel="stylesheet" href="./Geo/indexGeo.html">ENG</a>
+         
+      </li>
+    </ul>
+  </div>
+  </div>
+
+ 
+</div>
+</header>
+    <header class="u-clearfix u-header u-header" id="sec-b10b">
+    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <a href="https://nicepage.com" class="u-image u-logo u-image-1">
-          <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
+          
         </a>
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
@@ -41,23 +166,9 @@
             </a>
           </div>
           <div class="u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Page-2.html" style="padding: 10px 20px;">Page 2</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Home-1.html" style="padding: 10px 20px;">Home 1</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Home-2.html" style="padding: 10px 20px;">Home 2</a>
-</li></ul>
+            
           </div>
-          <div class="u-nav-container-collapse">
-            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-              <div class="u-inner-container-layout u-sidenav-overflow">
-                <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Page-2.html">Page 2</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home-1.html">Home 1</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home-2.html">Home 2</a>
-</li></ul>
-              </div>
-            </div>
-            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-          </div>
+          
         </nav>
       </div></header> 
     <section class="u-clearfix u-grey-5 u-section-1" id="sec-7b26">
@@ -136,17 +247,20 @@
               <div class="u-layout-col">
                 <div class="u-size-30">
                   <div class="u-layout-row">
-                    <div class="u-align-left u-container-style u-image u-layout-cell u-size-30 u-image-2" src="/images/2.jpg" data-image-width="723" data-image-height="1080">
+                    <div class="u-align-left u-container-style ">
+                      <img class=" u-image u-layout-cell u-size-30 u-image-2" src="" alt="" >
                       <div class="u-container-layout u-valign-bottom u-container-layout-2"></div>
                     </div>
-                    <div class="u-align-left u-container-style u-image u-layout-cell u-right-cell u-size-30 u-image-3" src="/images/3.jpg" data-image-width="723" data-image-height="1080">
+                    <div class="u-align-left u-container-style " >
+                      <img class="u-image u-layout-cell u-right-cell u-size-30 u-image-3" src="" alt="">
                       <div class="u-container-layout u-valign-bottom u-container-layout-3"></div>
                     </div>
                   </div>
                 </div>
                 <div class="u-size-30">
                   <div class="u-layout-col">
-                    <div class="u-align-left u-container-style u-image u-layout-cell u-right-cell u-size-60 u-image-4" src="" data-image-width="1620" data-image-height="1080">
+                    <div class="u-align-left u-container-style "  >
+                      <img class="u-image u-layout-cell u-right-cell u-size-60 u-image-4" src="" >
                       <div class="u-container-layout" src="/images/4.jpg"></div>
                     </div>
                   </div>
@@ -211,6 +325,7 @@
                   <div class="u-size-40">
                     <div class="u-layout-row">
                       <div class="u-container-style u-image u-layout-cell u-size-60 u-image-1" data-image-width="1620" data-image-height="1080">
+                        <img class="Goga" src="/images/goga.jpg" alt="">
                         <div class="u-container-layout u-container-layout-3"></div>
                       </div>
                     </div>
@@ -234,17 +349,6 @@
     </section>
     
     
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-7756"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-        <span>Free Website Templates</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="https://nicepage.dev" target="_blank">
-        <span>Website Builder</span>
-      </a>. 
     </section>
   </body>
 </html>
