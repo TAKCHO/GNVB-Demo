@@ -958,3 +958,9 @@ img {vertical-align: middle;}
 .row {
   display: flex;
 }
+
+.right {
+  position:absolute;
+  text-align: left;
+  margin-top: 90px;
+}
