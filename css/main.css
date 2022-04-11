@@ -960,8 +960,15 @@ img {vertical-align: middle;}
 }
 
 .right {
-  position:absolute;
+  position:relative;
   text-align: left;
   margin-top: 90px;
   margin-left: 30px;
+}
+
+.doc_img {
+  float: center;
+  height: 600px;  
+  width: 600px;
+  margin-top: 20px;
 }
