@@ -964,6 +964,9 @@ img {vertical-align: middle;}
   text-align: left;
   margin-top: 90px;
   margin-left: 30px;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px #a8a2a2;
+  background-image: linear-gradient(to right, rgba(209, 197, 197, 0), rgb(252, 248, 248));
 }
 
 .doc_img {
@@ -971,4 +974,9 @@ img {vertical-align: middle;}
   height: 600px;  
   width: 600px;
   margin-top: 20px;
+  background: transparent;
+        padding: 8px;
+        border: 1px solid #ccc;
+        box-shadow: 10px 10px 10px #999;
+  
 }
