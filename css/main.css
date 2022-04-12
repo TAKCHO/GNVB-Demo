@@ -515,7 +515,8 @@ img {
 #main-footer {
   background: #3f4267;
   color: #fff;
-  height: 5rem; }
+  height: 5rem;
+ }
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;
@@ -532,7 +533,7 @@ img {
       padding: 0.5rem;
       transition: all 0.5s ease-in-out; }
       #main-footer .footer-content .social .fab:hover {
-        background: #ec3238; }
+        background: #e0d6d6; }
 
 .h-scroll {
   overflow-x: scroll;
