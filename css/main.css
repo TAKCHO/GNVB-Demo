@@ -1269,12 +1269,20 @@ img {
 
 .doc_img {
   float: center;
-  height: 600px;
-  width: 600px;
+  height: 500px;
+  width: 500px;
   margin-top: 20px;
   background: transparent;
   padding: 8px;
   border: 1px solid #ccc;
   box-shadow: 10px 10px 10px #999;
 
+}
+
+.mainDoc {
+  display: inline-block;
+  flex-direction: column;
+  line-height: 1.2em;
+  height: 500px;
+  width: 500px;
 }
