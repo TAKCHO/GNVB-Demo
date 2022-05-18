@@ -1207,6 +1207,12 @@ img {
   background: linear-gradient(#f1c4c4, #d3e0f3);
 }
 
+#Tbilisi h2,p {
+  margin-top: 40px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
 .pricing-column {
   padding: 3% 2%;
 }
@@ -1279,7 +1285,7 @@ img {
 
 }
 
-.mainDoc {
+#mainDoc {
   display: inline-block;
   flex-direction: column;
   line-height: 1.2em;
